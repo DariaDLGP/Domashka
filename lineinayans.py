@@ -50,7 +50,7 @@ def plot_decision_boundary(model, X, y):
     plt.xlabel('x1')
     
     #plt.figure(figsize=(14,8))
-    plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
+    plt.scatter(X[0, :], X[1, :], c=Y[0], cmap=plt.cm.Spectral)
     #plt.show()
 
 X, Y = load_planar_dataset() #загружаем датасет
